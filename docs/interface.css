@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: rgb(25, 236, 106);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(25, 236, 106);
+}
+
+body {
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poor Story";
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    color: rgb(243, 87, 87);
+}
+
+.function {
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+    padding-top: 20px;
+}
+
+.ligne {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.attribut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+.attribut:hover {
+    background-color: rgb(0, 109, 233);
+    color: black;
+    font-size: 25px;
+    transition: 0.5s;
+    
+}
+
