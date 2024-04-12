@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poor Story";
+    color: white;
+}
+
+
+h1{
+    font-family: "Poor Story";
+    color: rgb(243, 87, 87);
+    padding-top: 20px;
+}
+
+.home{
+    text-align: start;
+    max-width: 100%;
+    width: 99%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    width: 20%;
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.order h2{
+    margin-right: 15px;
+}
+
+select{
+    border-radius: 20px;
+    background-color: rgb(228, 72, 72);
+}

@@ -1,0 +1,39 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas</title>
+    <link rel="stylesheet" href="nicolas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="JoyStick-2.0.0/joy.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <a href="../interface.html" class="home">HOME</a>
+
+    <header>
+        <h1>NICOLAS INTERFACE</h1>
+    </header>
+
+    <img src="bot.png" alt="">
+    <div id="joyDiv" style="width:200px;height:200px;margin-bottom:20px;"></div>
+
+    <script type="text/javascript">    
+        var joy = new JoyStick('joyDiv');
+    </script>
+
+    <div class="order">
+    <h2>GIVE AN ORDER</h2>
+    <select name="order" id="order">
+        <option value="">Give an order</option>
+        <option value="10">Do the cooking</option>
+        <option value="20">Cleaning</option>
+        <option value="20">Repairs the car</option>
+ 
+      </select>
+    </div>
+
+</body>
+</html>
